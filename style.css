@@ -22,7 +22,8 @@ body{
     width:100%;
     height:100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banner.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('mainbanner.jpg');
+    filter: brightness(170%);
     background-size:cover ;
     background-position: center;
     position: relative;
@@ -243,15 +244,19 @@ button:hover{
     width: 100%;
     padding: 100px 0px;
     background-color: #403c3c;
+    display:flex;
+    flex-wrap: wrap;
+
 }
 
 .about img{
-    height: auto;
-    width: 430px;
+    height: 67vh;
+    width: auto;
 }
 
 .about-text{
-    width: 550px;
+    width: 30vw;
+    padding: 10px;
 }
 .main{
     width:1130px;
@@ -306,7 +311,8 @@ button:hover{
 .skills{
     display:flex;
     justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banner.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banner3.jpg');
+    filter:brightness(130%);
     flex-wrap:wrap;
 
 }
@@ -389,7 +395,8 @@ h5{
     transition: .4s;
 }
 .contact{
-    background-color: black;
+    background-image: url(banner3.jpg);
+    filter:brightness(90%);
     padding-top: 5px;
     
 }
@@ -410,9 +417,7 @@ h5{
 }
 .col2 a{
 
-    width: 37px;
-    height:37px;
-    border-radius: 50%;
+    padding-top: 12px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -420,15 +425,14 @@ h5{
     color:#eee;
     cursor:pointer;
     margin-right: 20px;
-    background-color: rgba(255,255,255, 0.1);
-    /* margin-bottom: 35px; */
+    /* background-color: rgba(255,255,255, 0.1); */
 }
 .bottom{
     
     padding-bottom: 40px ;
 }
 .contact .bottom {
-    color:#eee;
+    color:#a6a1a1;
     letter-spacing: 2px;
     font-size: 15px;
     
